@@ -217,7 +217,7 @@ React (Vercel)
 
 | Service | URL |
 |---------|-----|
-| Frontend (Vercel) | https://fixflow-cognodb-project-delta.vercel.app/device/apple-console-2 |
+| Frontend (Vercel) | https://fixflow-cognodb-project-delta.vercel.app |
 | Backend API (Render) | https://fixflow-api-3rap.onrender.com |
 | Demo Video | (optional) |
 
