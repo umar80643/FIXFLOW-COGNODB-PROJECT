@@ -101,7 +101,9 @@ python seed.py
 
 ```bash
 cd backend
-uvicorn app.main:app --reload --port 8000
+uvicorn app.main:app --reload
+
+VITE_API_BASE_URL=https://fixflow-api-3rap.onrender.com
 ```
 
 7. Run the frontend:
@@ -112,6 +114,18 @@ npm run dev
 ```
 
 If the database is not reachable, the backend switches to a safe demo mode so the frontend still works with bundled sample data.
+
+
+## Features
+
+- Graph-powered repair recommendations
+- Device explorer
+- Symptom relationships
+- Repair guides
+- Parts lookup
+- Tool lookup
+- Repair venues
+- Interactive graph visualization
 
 ## Assignment fit
 
@@ -149,18 +163,63 @@ Highlights:
 
 This project assumes a CognoDB instance is already provisioned. If you are creating a new database, use the managed service workflow provided by CognoDB, then point `COGNODB_URI`, `COGNODB_USER`, and `COGNODB_PASSWORD` at the new Bolt endpoint.
 
-## Screenshots
 
-This repository is built so you can capture screenshots after launch. The user-facing pages are:
+## Tech Stack
 
-- Home dashboard
-- Device detail view
-- Insights explorer
-- About and setup
+Frontend
 
-## Hosted demo
+- React
+- TypeScript
+- Vite
 
-No hosted deployment was produced from this environment. If you deploy it to Vercel, Netlify, Render, or a similar service, add the final demo URL and recording link here.
+Backend
+
+- FastAPI
+- Python
+
+Database
+
+- CognoDB (Graph Database)
+
+Deployment
+
+- Vercel
+- Render
+
+
+## Project Structure
+FixFlow
+│
+├── frontend
+│   ├── src
+│   ├── public
+│   ├── package.json
+│   └── vite.config.ts
+│
+├── backend
+│   ├── app
+│   ├── api
+│   ├── services
+│   └── requirements.txt
+│
+└── README.md
+
+## Architecture Diagram
+React (Vercel)
+        │
+        ▼
+ FastAPI (Render)
+        │
+        ▼
+     CognoDB
+
+## Hosted Demo
+
+| Service | URL |
+|---------|-----|
+| Frontend (Vercel) | https://fixflow-cognodb-project-delta.vercel.app/device/apple-console-2 |
+| Backend API (Render) | https://fixflow-api-3rap.onrender.com |
+| Demo Video | (optional) |
 
 ## Query examples
 
