@@ -218,7 +218,7 @@ React (Vercel)
 | Service | URL |
 |---------|-----|
 | Frontend (Vercel) | https://fixflow-cognodb-project-delta.vercel.app |
-| Backend API (Render) | https://fixflow-api-3rap.onrender.com |
+| Backend API (Render) | https://fixflow-api-3rap.onrender.com/docs |
 | Demo Video | (optional) |
 
 ## Query examples
