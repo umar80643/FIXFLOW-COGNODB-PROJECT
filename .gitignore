@@ -1,0 +1,15 @@
+node_modules/
+dist/
+build/
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+coverage/
+*.zip
+frontend/.vite/
+backend/.pytest_cache/
+backend/.mypy_cache/
+seed/.pytest_cache/
+docs/generated/
