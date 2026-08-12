@@ -204,6 +204,32 @@ FixFlow
 │
 └── README.md
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Architecture Diagram
 React (Vercel)
         │
@@ -212,6 +238,25 @@ React (Vercel)
         │
         ▼
      CognoDB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Hosted Demo
 
